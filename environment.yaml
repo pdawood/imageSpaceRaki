@@ -1,0 +1,11 @@
+name: imgRaki
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - pytorch=2.1.1
+  - cudatoolkit=11.1
+  - scikit-image
+  - jupyter
+  - matplotlib
+  - tqdm
